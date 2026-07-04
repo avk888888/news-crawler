@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 歷史記錄目錄（內容由程式產生）
+history/
+
+# IDE
+.vscode/
+.idea/
+*.swp
