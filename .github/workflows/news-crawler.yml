@@ -23,4 +23,4 @@ jobs:
           git config user.email "bot@news-crawler.local"
           git add -A
           git diff --cached --quiet || git commit -m "chore: daily news history"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}

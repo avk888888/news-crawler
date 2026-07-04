@@ -39,9 +39,11 @@ cd news-crawler
 |---|---|---|
 | [BBC 國際](https://feeds.bbci.co.uk/news/world/rss.xml) | 國際 | 英文 |
 | [BBC 科技](https://feeds.bbci.co.uk/news/technology/rss.xml) | 科技 | 英文 |
-| [中央社 即時](https://www.cna.com.tw/list/aall.xml) | 國內綜合 | 繁體中文 |
-| [中央社 政治](https://www.cna.com.tw/list/aipl.xml) | 國內政治 | 繁體中文 |
-| [中央社 科技](https://www.cna.com.tw/list/ait.xml) | 科技 | 繁體中文 |
+| [中央社 國際](https://feeds.feedburner.com/rsscna/intworld) | 國際 | 繁體中文 |
+| [中央社 政治](https://feeds.feedburner.com/rsscna/politics) | 政治 | 繁體中文 |
+| [中央社 產經](https://feeds.feedburner.com/rsscna/finance) | 財經 | 繁體中文 |
+| [中央社 科技](https://feeds.feedburner.com/rsscna/technology) | 科技 | 繁體中文 |
+| [中央社 生活](https://feeds.feedburner.com/rsscna/lifehealth) | 生活 | 繁體中文 |
 
 ## 自訂
 

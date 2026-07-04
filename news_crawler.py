@@ -25,10 +25,12 @@ RSS_FEEDS = [
     # 國際新聞（英文）
     {"url": "https://feeds.bbci.co.uk/news/world/rss.xml",      "weight": 2, "lang": "en", "label": "BBC 國際"},
     {"url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "weight": 1, "lang": "en", "label": "BBC 科技"},
-    # 國內新聞（繁體中文）
-    {"url": "https://www.cna.com.tw/list/aall.xml",              "weight": 3, "lang": "zh", "label": "中央社 即時"},
-    {"url": "https://www.cna.com.tw/list/aipl.xml",              "weight": 2, "lang": "zh", "label": "中央社 政治"},
-    {"url": "https://www.cna.com.tw/list/ait.xml",               "weight": 1, "lang": "zh", "label": "中央社 科技"},
+    # 國內新聞（繁體中文）— 中央社 via FeedBurner
+    {"url": "https://feeds.feedburner.com/rsscna/intworld",      "weight": 2, "lang": "zh", "label": "中央社 國際"},
+    {"url": "https://feeds.feedburner.com/rsscna/politics",      "weight": 3, "lang": "zh", "label": "中央社 政治"},
+    {"url": "https://feeds.feedburner.com/rsscna/finance",       "weight": 2, "lang": "zh", "label": "中央社 產經"},
+    {"url": "https://feeds.feedburner.com/rsscna/technology",    "weight": 1, "lang": "zh", "label": "中央社 科技"},
+    {"url": "https://feeds.feedburner.com/rsscna/lifehealth",    "weight": 1, "lang": "zh", "label": "中央社 生活"},
 ]
 
 
